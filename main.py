@@ -1,6 +1,8 @@
 import schemdraw
 from schemdraw import logic
 
+# https://schemdraw.readthedocs.io/en/latest/gallery/logicgate.html#s-r-latch-gates
+
 # S AND A
 d = schemdraw.Drawing(unit=.5)
 d += (AND1 := logic.And())
